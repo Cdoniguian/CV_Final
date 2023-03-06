@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV/contacto</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="/"><i class='fas fa-rainbow'></i></a>
+            </div>
+            <div class="dropdown">
+                <div >
+                    <button class="buttonDeslizable">  
+                        <div class="burger-menu" > 
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </button>
+                </div>
+                <div id="completo">
+                    <div class="dropdown-content">
+                        <div id="felx">
+                           
+
+                            <a href="/contact" >Contacto</a>
+                            <a href="/about" >Datos Personales</a>
+                            <a href="/studies" >Mis Estudios</a>
+                            <a href="/myJob" >Mi Experiencia</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="icons-contens">
+                <div class="icons">
+                    <div class="borde">
+                        <p id="emailIcon"><i class='fa fa-at'></i></p>
+                    </div>
+                    <div class="borde">
+                        <p id="contact"><i class='fa fa-phone'></i></p>
+
+                    </div>
+                    <div class="borde">
+                        <p id="aboutMy"><i class='fa fa-info-circle'></i></p>
+
+                    </div>
+                    <div class="borde">
+                        <p id="myStudies"><i class='fa fa-book'></i></p>
+
+                    </div>
+                    <div class="borde">
+                        <p id="myJob"><i class='fa fa-cogs'></i></p>
+
+                    </div>
+
+                </div>
+                <div class="data-contens">
+                    <div class="borde">
+                        <a href="/contact" id="email"></i></a>
+                    </div>
+                    <div class="borde">
+                        <p id="foneNunber"></p>
+                    </div>
+                    <div class="borde">
+                        <a href="/about" id="about"></i></a>
+
+                    </div>
+                    <div class="borde">
+                        <a href="/studies" id="studies"></i></a>
+
+                    </div>
+                    <div class="borde">
+                        <a href="/myJob" id="job"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="h2_Cv">
+                <h2 id="title">Curriculum Vitae</h2>
+                <h3>Download</h3>
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="center">
+            <br>
+            <div class="myFoto">
+                <img src='image/fotoChristian.jpg' alt='fotoChristian' class="fotoChristian">
+            </div>
+
+        </div>
+        <div class="positionsData">
+            <form action="./" method="get" enctype="multipart/form-data">
+
+
+                <div><label for="email" class="formDataP" >Ingresar Tu numbre: </label>
+                    <br>
+                    <div>
+                        <input type="text" name="name" id="name" size="30" placeholder="Pepe">
+                    </div>
+                </div>
+                <br>
+                <div><label for="email" class="formDataP">Ingresar Tu Apellido: </label>
+                    <br>
+                    <div>
+                        <input type="text" name="lastName" id="lastName" size="30" placeholder="Grillo">
+                    </div>
+                </div>
+                <br>
+                <div><label for="email" class="formDataP">Ingresar Tu Email: </label>
+                    <br>
+                    <div class="noFlexLogin">
+                        <input type="email" name="email" id="email" size="30" placeholder="pepe@grillo.com">
+                    </div>
+                </div>
+                <br>
+                    <div>
+                        <label for="description" class="formDataP">Ingrese Su consulta:</label>
+                        <br>
+                        <textarea name="description" id="description" rows="10"
+                        placeholder="ingrese su consulta aqui que a la brevedad me comunicaré con usted.">
+                        </textarea>
+                    </div>
+                    <br>
+                    <div><button type="submit" class="superButton" id="superButton" alt="ingreso">Enviar Consulta</button></div>
+                    <br>
+            </form>
+            <a class="whatsapp" href="https://wa.me/543516840510?text=Quiero%20consultar%20por%20algún%20producto"
+                target="_blank">
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
+        </div>
+    </main>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

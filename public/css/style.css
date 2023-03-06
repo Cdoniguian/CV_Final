@@ -1,0 +1,698 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("../image/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-bar {
+    height: 6rem;
+    display: flex;
+    padding-left: 0%;
+    padding-right: 0%;
+    /* background: #494545a1; */
+    align-items: center;
+    opacity: 0.8;
+    width: 100%;
+}
+
+#img {
+    width: 50%;
+    padding-left: 1em;
+
+}
+
+
+.logo {
+    width: 30%;
+}
+
+#title {
+    color: antiquewhite;
+    padding-right: 1rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.fa {
+    color: bisque;
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    filter: grayscale(100%) brightness(125%) contrast(250%);
+}
+
+.fas {
+    font-size: 5rem;
+    color: antiquewhite;
+    padding: 1rem;
+    filter: grayscale(100%) brightness(125%) contrast(250%);
+
+}
+
+#emailIcon {
+    font-size: 2rem;
+}
+
+#contact {
+    font-size: 2rem;
+}
+
+#aboutMy {
+    font-size: 2rem;
+}
+
+#myStudies {
+    font-size: 2rem;
+}
+
+#myJob {
+    font-size: 2rem;
+}
+
+.icons-contens {
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.data {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: lightcoral;
+}
+
+.borde {
+    display: flex;
+    padding-top: 0.3em;
+    width: 33%;
+    justify-content: center
+}
+
+.data-contens {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2 {
+    font-style: italic;
+}
+
+/* ----------------------------------------------------------- */
+#email {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: tomato
+}
+
+#foneNunber {
+    color: tomato;
+    font-size: 1.1em;
+}
+
+#about {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: tomato
+}
+
+#studies {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: tomato
+}
+
+#job {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: tomato
+}
+
+
+/* ----------------------------------------------------------- */
+.h2_Cv {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fotoChristian {
+
+    border: solid 4px lightskyblue;
+    border-radius: 50%;
+    width: 25%;
+
+}
+
+.myFoto {
+    position: relative;
+    left: 3rem;
+}
+
+.myFoto :hover {
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    transition-duration: 1s;
+    border: solid 2px lightskyblue;
+    width: 26%;
+    filter: sepia(60%);
+}
+
+.whatsapp {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 100px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 30px;
+    z-index: 100;
+
+}
+
+.containName {
+    display: flex;
+    width: 95%;
+    height: 7rem;
+    border: solid 2px lightblue;
+    background-color: rgb(195, 250, 195);
+    opacity: 0.6;
+    position: absolute;
+    z-index: -1;
+    bottom: 20rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.center {
+    padding-left: 2rem;
+    padding-top: 2rem;
+
+
+}
+
+main {
+    padding-top: 3rem;
+}
+
+#positions {
+    position: absolute;
+    right: 10rem;
+    bottom: 12em;
+}
+
+#positionsData {
+    position: absolute;
+    right: 10rem;
+    bottom: 2rem;
+    width: 50%;
+
+}
+
+.positionsData {
+    position: absolute;
+    right: 10rem;
+    bottom: 2em;
+    width: 50%;
+
+}
+
+.positionsDataAbaut {
+    position: absolute;
+    right: 10rem;
+    bottom: 1em;
+    width: 50%;
+}
+
+
+.colorH2::first-letter {
+    color: red;
+    font-size: 1.5em;
+}
+
+.colorH2 {
+    color: bisque;
+}
+
+
+
+
+.dataH3 {
+    font-weight: bold;
+    color: rgb(225, 230, 156);
+    font-style: italic;
+    padding-left: 2em;
+    font-size: 1.5em;
+}
+
+.dataP:first-letter {
+    color: red;
+    font-style: italic;
+    font-size: 1.2em;
+
+}
+
+.dataP {
+    font-weight: bold;
+    color: #f3f3eca4;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
+    font-size: 1.1em;
+}
+
+.horizontal {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+#scroll {
+    border: 2px;
+    height: 30rem;
+    width: 40rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#scroll p {
+    color: #f3f3eca4;
+}
+
+#scroll::-webkit-scrollbar {
+    width: 15px;
+    /* ancho de la barra */
+}
+
+#scroll::-webkit-scrollbar-track {
+    opacity: 50%;
+    background: rgb(51, 128, 83);
+    /* color del area */
+}
+
+#scroll::-webkit-scrollbar-thumb {
+
+    background-color: rgb(34, 78, 30);
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid orange;
+}
+
+#description {
+    width: 80%;
+    border: lightgreen 3px solid;
+    border-radius: 10px;
+}
+
+input {
+    border: lightgreen 3px solid;
+    border-radius: 10px;
+    height: 2em;
+
+}
+
+.formDataP {
+    font-weight: bold;
+    color: #f3f3eca4;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
+    font-size: 1.2em;
+
+}
+
+.superButton {
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5em 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    border-radius: 1em;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink);
+    background-size: 700%;
+    animation: amimationName 20s linear infinite;
+}
+
+/*_____________________________menu desplegable inicio__________________________________*/
+
+.alineado {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttonDeslizable {
+    background: none;
+    display: none;
+    margin-left: 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+
+}
+
+#felx {
+    display: flex;
+}
+
+/* 
+.dropdown {
+   
+  
+    
+  } */
+.dropdown-content {
+    display: none;
+    /* no aparecen las opciones (no visible)  */
+    width: 25rem;
+    background-color: #FFF;
+    border: solid;
+    border-radius: 10%;
+
+}
+
+.dropdown:hover .dropdown-content {
+    /* cuando nos pocicionamos sobre el boton (hover) el contenido pasa a block (visible)  */
+    display: block;
+    position: relative;
+    top: 3rem;
+    left: 10rem;
+
+}
+
+.dropdown-content a {
+
+    display: block;
+    /* aparecen las opciones  */
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    /* sin subrayado   */
+}
+
+.dropdown-content a:hover {
+    /* cuando nos pocicionamos sobre cada opcion (hover)*/
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+
+/*__________________________________menu desplegable fin_____________________________*/
+
+.burger-menu i {
+    color: white;
+    background: #1259c3;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+
+footer {
+    position: relative;
+    bottom: -1em;
+    background: grey;
+    height: 4rem;
+    margin-top: 2.5rem;
+}
+
+.positionsDataJob {
+    position: absolute;
+    right: 10rem;
+    bottom: -2em;
+    width: 50%;
+}
+/*---------------------------------------responsive------------------------------------------------------------*/
+
+@media(max-width:1100px) {
+    #positions {
+        position: absolute;
+        right: 10rem;
+        bottom: 2em;
+    }
+
+    .containName {
+
+        justify-content: flex-end;
+    }
+}
+
+
+@media(max-width:950px) {
+    #title {
+        display: none;
+    }
+
+    .fotoChristian {
+        width: 25%;
+    }
+
+    .positionsData {
+        right: 1rem;
+        bottom: -1em;
+
+    }
+
+    .positionsDataAbaut {
+
+        right: 4rem;
+        width: 50%;
+        bottom: -10rem;
+    }
+
+
+
+}
+@media(max-width:830px) {
+    .fotoChristian {
+        width: 30%;
+    }
+
+    #positionsData {
+        right: 4rem;
+        bottom: -1em;
+
+    }
+    .positionsDataJob {
+        position: absolute;
+        right: 20rem;
+        bottom: -18em;
+    }
+    .myFoto {
+        position: relative;
+        left: 15rem;
+        bottom: 5rem;
+    }
+}
+
+
+@media(max-width:770px) {
+    #positions {
+        right: 1rem;
+        bottom: -8rem;
+    }
+
+    .fotoChristian {
+        width: 43%;
+    }
+
+    .positionsDataAbaut {
+
+        right: 1rem;
+        width: 90%;
+        bottom: -20rem;
+    }
+
+    .myFoto {
+        position: relative;
+        left: 15rem;
+        bottom: 4rem;
+    }
+
+    .dropdown:hover {
+        bottom: 14rem;
+    }
+
+    .containName {
+        bottom: 1rem;
+        justify-content: center;
+    }
+
+    .positionsData {
+        position: absolute;
+        right: 10rem;
+        bottom: -25em;
+        width: 50%;
+
+    }
+    #positionsData {
+        right: 1rem;
+        bottom: -20em;
+        width: 90%;
+    }
+}
+
+
+@media(max-width:700px) {
+
+    .buttonDeslizable {
+        position: absolute;
+        right: 1rem;
+        bottom: 30rem;
+
+        display: block;
+    }
+
+    .icons-contens {
+        display: none;
+    }
+
+    .containName {
+        flex-direction: column-reverse;
+        bottom: -1rem;
+    }
+
+    .fotoChristian {
+        width: 20rem;
+
+    }
+
+    .positionsData {
+        right: 10rem;
+        bottom: -30rem;
+    }
+
+    .positionsDataAbaut {
+
+        right: 6rem;
+        width: 80%;
+        bottom: -25rem;
+    }
+
+    .myFoto {
+        position: relative;
+        left: 10rem;
+        bottom: 4rem;
+    }
+
+    #positions {
+
+        left: 7rem;
+        bottom: -14em;
+    }
+
+    #scroll {
+       
+        height: 30rem;
+        width: 40rem;
+       
+    }
+    
+
+}
+
+
+
+@media(max-width:670px) {
+    #description {
+        width: 140%;
+    }
+
+    .dropdown:hover .dropdown-content {
+        /* cuando nos pocicionamos sobre el boton (hover) el contenido pasa a block (visible)  */
+        display: block;
+        position: relative;
+        top: 4rem;
+        left: -1rem;
+
+    }
+
+    .positionsDataAbaut {
+
+        right: 4rem;
+        width: 80%;
+        bottom: -400px;
+    }
+
+}
+
+@media(max-width:670px) {
+    .positionsDataAbaut {
+
+        right: 4rem;
+        width: 80%;
+        bottom: -500px;
+    }
+}
+
+@media(max-width:440px) {
+    #nombre {
+        font-size: 1.5rem;
+    }
+
+    #description {
+        width: 150%;
+    }
+
+    .myFoto {
+        position: relative;
+        left: 4rem;
+        bottom: 4rem;
+
+    }
+
+    .fotoChristian {
+
+        border: solid 4px lightskyblue;
+        border-radius: 50%;
+        width: 70%;
+
+    }
+
+    .dropdown:hover .dropdown-content {
+        /* cuando nos pocicionamos sobre el boton (hover) el contenido pasa a block (visible)  */
+        display: block;
+        position: relative;
+        top: 4rem;
+        left: -5rem;
+
+    }
+
+    .positionsData {
+        position: absolute;
+        right: 10rem;
+        bottom: -26em;
+        width: 50%;
+
+    }
+
+    .positionsDataAbaut {
+
+        right: 4rem;
+        width: 80%;
+        bottom: -650px;
+    }
+}
