@@ -1,0 +1,10 @@
+El proyecto esta realizado con "node.js que es un entorno de ejecución JavaScript, y utilicé un framework
+llamado "Express".
+para inicializar node.js debemos abrir una terinal y enecutar "npm init" con este comando de instala
+el mónulo none_module luego ejecutamos en la terminal "npm install" y se instala el package.json. 
+Seguidamente instalamos express de la siguiente forma "npm install express --save" luego instalamos
+"nodemon" corriendo el comando "npm install nodemon -D"
+
+Para poder correr todo lo anterior expuesto debemos ejecutando el comando "npm start"
+En una ventana del navegador en la URL escribimos http://localhost:3032
+
